@@ -30,7 +30,23 @@ IOAM_Project/
 
 ---
 
-## 3. Quick Start (from IOAM_Project folder)
+## 3. Flow Diagram — IOAM-Enabled tracepath
+
+![Tracepath Flow](./images/97bb506f-8faa-419e-b79f-7f80b290480a.png)
+
+The modified tracepath sends and receives packets using both datagram (`Sock_dgrm`) and raw socket paths to parse IOAM Hop-by-Hop data.
+
+---
+
+## 4. Example Output — IOAM Trace Results
+
+![Tracepath Output](./images/cb6e70ba-0e5b-40f8-8c8c-ae49ef1589dc.png)
+
+The IOAM trace shows each hop with Node IDs, timestamps, and queue depth data extracted from IOAM fields.
+
+---
+
+## 5. Quick Start (from IOAM_Project folder)
 
 ### Clone and Prepare iputils
 
@@ -66,7 +82,7 @@ This will:
 
 ---
 
-## 4. Run Custom tracepath Manually
+## 6. Run Custom tracepath Manually
 
 After the emulation environment is set up, you can manually run tracepath:
 
